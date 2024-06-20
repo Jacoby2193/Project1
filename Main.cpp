@@ -6,8 +6,22 @@
 // 함수의 선언
 int Add(int a, int b);
 
+#define MAX 100
+
+// 매크로 함수
+#define MY_ADD(a, b) (a + b)
+
 int main()
 {
+#pragma region 매크로
+	//int i = MY_ADD(10, 20);
+	int i = (10 + 20);
+
+
+#pragma endregion
+
+
+
 #pragma region 클래스
 
 
